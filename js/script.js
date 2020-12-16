@@ -23,11 +23,11 @@ document.getElementById('dado-utente').innerHTML = 'Tu hai estratto il numero:' 
 // Verificare chi tra il pc e l'utente ha estratto il numero più alto
 
 if (computer > utente) {
-  document.getElementById('vincitore').innerHTML = 'Mi dispiace hai perso, ha vinto il computer con il numero:' + ' ' + computer;
+  document.getElementById('vincitore').innerHTML = 'Mi dispiace hai perso, ha vinto il computer con il numero:' + ' ' + computer + ' '  + '&#128532;';
 }
 
 else if (computer < utente) {
-  document.getElementById('vincitore').innerHTML = 'Grande! Hai Vinto con il numero:' + ' ' + utente;
+  document.getElementById('vincitore').innerHTML = 'Grande! Hai Vinto con il numero:' + ' ' + utente + ' ' + '&#128540;';
 }
 
 else {
@@ -36,6 +36,6 @@ else {
 
 
 if (utente == 7) {
-  document.getElementById('vincitore').innerHTML = 'Hai vinto con il numero 7! Aspetta... ma non è che stai barando?';
+  document.getElementById('vincitore').innerHTML = 'Hai vinto con il numero 7! Aspetta... ma non è che stai barando?'+ '  &#128520;';
 
 }
